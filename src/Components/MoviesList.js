@@ -4,14 +4,14 @@ import Movies from '../Components/Movies'
 const MoviesList = ({films}) => {
     const movieNodes = films.map(films => {
         return(
-            <Movies key={films.id} >{films.name}</Movies>
+            <Movies key={films.id} url={films.url} >{films.name}</Movies>
         )
     })
 
     return (
-        <div className="movies-list">
+        <body className="movies-list">
         {movieNodes}
-        </div>
+        </body>
     )
 }
 

@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Movies = ({name, children}) => {
+const Movies = ({children, url}) => {
     return(
         <div className="movies">
-        <li>{children}</li>
-
+        <li><a href={url}>{children}</a></li>
         </div>
     )
 }

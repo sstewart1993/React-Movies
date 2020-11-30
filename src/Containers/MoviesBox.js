@@ -33,7 +33,7 @@ const MoviesBox = () => {
     )
     return(
         <div className="movies-box">
-        <h1>Movies</h1>
+        <h1>Big Movies Before Covid Ruined It All!!!</h1>
         <MoviesList films = {films}/>
         </div>
     )
