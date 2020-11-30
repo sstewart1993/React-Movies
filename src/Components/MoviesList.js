@@ -11,6 +11,9 @@ const MoviesList = ({films}) => {
     return (
         <body className="movies-list">
         {movieNodes}
+        <button>
+        <a href="https:www.imdb.com/calendar/?region=gb">
+        View More Upcoming Releases</a></button>
         </body>
     )
 }
